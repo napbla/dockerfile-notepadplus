@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="dockerfile" ext="" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="yes" Keywords5="yes" Keywords6="no" Keywords7="yes" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00# 01 02\n 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">ADD&#x000D;&#x000A;COPY&#x000D;&#x000A;ENV&#x000D;&#x000A;EXPOSE&#x000D;&#x000A;LABEL&#x000D;&#x000A;USER&#x000D;&#x000A;WORKDIR&#x000D;&#x000A;VOLUME&#x000D;&#x000A;STOPSIGNAL&#x000D;&#x000A;FROM&#x000D;&#x000A;RUN&#x000D;&#x000A;CMD&#x000D;&#x000A;ENTRYPOINT&#x000D;&#x000A;ARG&#x000D;&#x000A;ONBUILD&#x000D;&#x000A;STOPSIGNAL&#x000D;&#x000A;HEALTHCHECK&#x000D;&#x000A;SHELL</Keywords>
+            <Keywords name="Keywords2">curl&#x000D;&#x000A;tar&#x000D;&#x000A;ln&#x000D;&#x000A;mkdir&#x000D;&#x000A;groupadd&#x000D;&#x000A;set&#x000D;&#x000A;wget&#x000D;&#x000A;export&#x000D;&#x000A;gpg&#x000D;&#x000A;rm&#x000D;&#x000A;chmod&#x000D;&#x000A;gosu&#x000D;&#x000A;chown&#x000D;&#x000A;echo&#x000D;&#x000A;sed&#x000D;&#x000A;mv&#x000D;&#x000A;exec&#x000D;&#x000A;grep&#x000D;&#x000A;find&#x000D;&#x000A;ssh&#x000D;&#x000A;awk&#x000D;&#x000A;vim&#x000D;&#x000A;diff&#x000D;&#x000A;sort&#x000D;&#x000A;xargs&#x000D;&#x000A;ls&#x000D;&#x000A;pwd&#x000D;&#x000A;cd&#x000D;&#x000A;gzip&#x000D;&#x000A;bzip2&#x000D;&#x000A;unzip&#x000D;&#x000A;shutdown&#x000D;&#x000A;ftp&#x000D;&#x000A;crontab&#x000D;&#x000A;service&#x000D;&#x000A;ps&#x000D;&#x000A;free&#x000D;&#x000A;top&#x000D;&#x000A;df&#x000D;&#x000A;kill&#x000D;&#x000A;cp&#x000D;&#x000A;mv&#x000D;&#x000A;cat&#x000D;&#x000A;mount&#x000D;&#x000A;passwd&#x000D;&#x000A;uname&#x000D;&#x000A;whereis&#x000D;&#x000A;whatis&#x000D;&#x000A;locate&#x000D;&#x000A;man&#x000D;&#x000A;tail&#x000D;&#x000A;less&#x000D;&#x000A;su&#x000D;&#x000A;mysql&#x000D;&#x000A;yum&#x000D;&#x000A;rpm&#x000D;&#x000A;ping&#x000D;&#x000A;date</Keywords>
+            <Keywords name="Keywords3">install&#x000D;&#x000A;update&#x000D;&#x000A;list</Keywords>
+            <Keywords name="Keywords4">--</Keywords>
+            <Keywords name="Keywords5">http://&#x000D;&#x000A;https://</Keywords>
+            <Keywords name="Keywords6">MAINTAINER</Keywords>
+            <Keywords name="Keywords7">apt-</Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00${ 01 02} 03&quot; 04 05&quot; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="6C6C00" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="7" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="008080" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
