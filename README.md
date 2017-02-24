@@ -1,4 +1,4 @@
-with 60 most used Linux commands
+User-defined xml for dockerfile in Notepad++ with 60 most used Linux commands
 
 Color scheme:
 
